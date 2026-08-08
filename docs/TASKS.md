@@ -8,9 +8,12 @@
 - TASK-003 — Documentation system: Completed.
 - TASK-004 — Documentation audit: Completed.
 
+## Completed Tasks
+
+- Review and consolidate repeated inline CSS patterns. Completed.
+
 ## Planned / Unstarted Tasks
 
-- Review and consolidate repeated inline CSS patterns.
 - Review and consolidate repeated inline JavaScript patterns.
 - Perform responsive QA across major breakpoints.
 - Review accessibility and contrast issues.

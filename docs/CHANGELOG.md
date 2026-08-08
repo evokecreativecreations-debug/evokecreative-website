@@ -12,6 +12,11 @@
 - Added project, architecture, design system, page, content, roadmap, task, workflow, and AI context documents.
 - Recorded the current state and known TODOs without inventing unsupported facts.
 
+## Implementation Work
+
+- Extracted shared CSS into external stylesheets under assets/css/ and linked them from all HTML pages.
+- Removed the duplicated inline page styles in favor of shared assets while leaving content, URLs, and JavaScript behavior intact.
+
 ## Notes
 
 No website implementation files were changed in this documentation-only task.
