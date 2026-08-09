@@ -91,3 +91,15 @@
 .faq-answer{max-height:0;overflow:hidden;transition:max-height 0.3s ease, padding 0.3s ease;}
 .faq-answer p{color:var(--mid, #A79FC7);line-height:1.6;padding:0 4px 22px 4px;margin:0;}
 .faq-item.active .faq-answer{max-height:400px;}
+
+.blog-article{max-width:900px;margin:0 auto;padding:20px 24px 100px;color:var(--text);line-height:1.7;}
+.blog-article img{max-width:100%;height:auto;}
+.blog-article .cta-band{width:auto;margin-left:0;margin-right:0;}
+
+@media(max-width:700px){
+  .blog-article{padding:16px 5vw 70px;font-size:0.95rem;}
+  .blog-article h2{font-size:1.3rem!important;margin-top:36px!important;}
+  .blog-article h3{font-size:1.05rem!important;margin-top:26px!important;}
+  .blog-article img{width:100%;height:auto;}
+  .blog-article .cta-band{width:auto!important;margin:40px 0 0!important;padding:2.5rem 1.5rem;}
+}
