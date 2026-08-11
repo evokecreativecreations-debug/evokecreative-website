@@ -1,25 +1,19 @@
-# Tasks
-
-## Completed Tasks
-
-- TASK-000 — Repository safety/baseline: Completed.
-- TASK-001 — Local development server: Completed.
-- TASK-002 — Initial codebase audit: Completed.
-- TASK-003 — Documentation system: Completed.
-- TASK-004 — Documentation audit: Completed.
-
 ## Completed Tasks
 
 - Review and consolidate repeated inline CSS patterns. Completed.
+- Review and consolidate repeated inline JavaScript patterns. Completed.
+- Perform responsive QA across major breakpoints. Completed.
+- Review accessibility and contrast issues. Completed.
+- Review SEO metadata consistency across pages. Completed.
+- Review performance and media optimization. Completed.
+- Prepare final deployment checklist. Completed.
 
-## Planned / Unstarted Tasks
+## Deployment
 
-- Review and consolidate repeated inline JavaScript patterns.
-- Perform responsive QA across major breakpoints.
-- Review accessibility and contrast issues.
-- Review SEO metadata consistency across pages.
-- Review performance and media optimization.
-- Prepare final deployment checklist.
+- Website development and QA: Completed.
+- Final commit: `3668c9d`
+- Working tree: Clean.
+- Live deployment: Pending.
 
 ## Notes
 
