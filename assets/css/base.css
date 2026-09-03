@@ -72,7 +72,7 @@
   /* ── HERO (dark, cyberpunk-lux contrast) ── */
   .hero{
     position:relative;
-    background:radial-gradient(ellipse 120% 80% at 50% -10%,#22193f 0%,var(--ink) 55%);
+    background:radial-gradient(ellipse 120% 80% at 50% -10%,#17181C 0%,var(--ink) 55%);
     color:#fff;
     padding:6rem 6vw 5rem;
     overflow:hidden;
@@ -199,7 +199,7 @@
   /* ── PORTFOLIO ── */
   .portfolio-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.5rem;padding:0 6vw 4rem;}
   .portfolio-item{display:block;text-decoration:none;color:inherit;border-radius:16px;overflow:hidden;border:1.5px solid var(--mist);background:var(--ink);position:relative;cursor:none;}
-  .portfolio-thumb{aspect-ratio:4/3;background:linear-gradient(135deg,#22193f,#3A1A8A 60%,#6C3FE8);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;}
+  .portfolio-thumb{aspect-ratio:4/3;background:linear-gradient(135deg,#17181C,#3A1A8A 60%,#6C3FE8);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;}
   .portfolio-thumb::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(0,0,0,0.75) 100%);opacity:0;transition:opacity .3s;}
   .portfolio-item:hover .portfolio-thumb::after{opacity:1;}
   .portfolio-thumb span{font-family:'Space Mono',monospace;font-weight:700;color:rgba(255,255,255,0.55);font-size:0.8rem;letter-spacing:0.05em;text-transform:uppercase;transition:transform .35s ease;}
@@ -269,7 +269,7 @@
   /* ── COMPACT PAGE HEADER (for inner pages) ── */
   .page-header{
     position:relative;
-    background:radial-gradient(ellipse 120% 100% at 50% -10%,#22193f 0%,var(--ink) 55%);
+    background:radial-gradient(ellipse 120% 100% at 50% -10%,#17181C 0%,var(--ink) 55%);
     color:#fff;
     padding:4.5rem 6vw 3.5rem;
     overflow:hidden;
