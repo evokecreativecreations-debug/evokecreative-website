@@ -174,7 +174,7 @@
   .cat-desc{font-size:1rem;color:var(--mid);padding:0 6vw 2.5rem;max-width:640px;}
 
   /* ── STATS BAND ── */
-  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;padding:3.5rem 6vw;}
+  .stats{display:grid;grid-template-columns:repeat(5,1fr);gap:1.5rem;padding:3.5rem 6vw;}
   .stat-num{font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.5vw,2.6rem);font-weight:800;color:var(--violet);letter-spacing:-0.02em;}
   .stat-label{font-family:'Space Mono',monospace;font-size:0.72rem;color:var(--mid);margin-top:0.4rem;text-transform:uppercase;letter-spacing:0.04em;}
 
