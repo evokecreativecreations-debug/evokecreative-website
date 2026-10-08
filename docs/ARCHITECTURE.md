@@ -8,7 +8,7 @@ The repository is currently a flat static website project with many standalone H
 
 Current characteristics:
 - The site is multi-page and static.
-- Pages include home, about, services, work, contact, blog, testimonials, case-study pages, and blog detail pages.
+- Pages include home, about, services, work, contact, blog, case-study pages, and blog detail pages. Testimonials are on the home page.
 - Styling is embedded directly in each page.
 - JavaScript behavior is embedded directly in each page.
 - Navigation, footer, hero styles, button styles, portfolio cards, and marquee sections repeat across pages.
@@ -41,7 +41,6 @@ Suggested target structure:
 ├── work.html
 ├── contact.html
 ├── blog.html
-├── testimonials.html
 ├── case-study-ascendant-link.html
 ├── case-study-fuse-a-brainrot.html
 ├── case-study-jacyjo-branding.html
@@ -109,7 +108,7 @@ This should be executed as a phased migration where each phase can be tested and
 5. Phase 5 — Migrate one page type at a time
 - Migrate the home page first.
 - Then about, services, work, and contact pages.
-- Then blog and testimonial pages.
+- Then blog pages; keep testimonials on the home page.
 - Then case-study and blog-detail pages.
 - Keep each page group isolated so issues can be diagnosed quickly.
 - Result: changes are incremental and low-risk.
