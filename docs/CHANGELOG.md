@@ -141,3 +141,7 @@ Validation: all 40 FAQ controls passed; all 18 pages passed responsive checks at
 - Added one shared deferred loader on all 18 pages; the Google tag loads asynchronously on the production www/non-www domain only.
 - Prevented duplicate initialization and excluded localhost/preview traffic. No custom form values or identifying data parameters are added.
 - Host gating and single initialization passed isolated tests. Live collection and Realtime verification require deployment; no deployment performed.
+
+## 2026-10-18 — Netlify preview routing fix
+- Removed trailing-slash-only redirects after the protected Netlify preview exposed redirect loops. Netlify normalizes trailing slashes before matching rules; canonical tags retain the preferred URLs.
+- Retained legacy .html redirects and the Services hub rewrite. Preview must pass before production merge.

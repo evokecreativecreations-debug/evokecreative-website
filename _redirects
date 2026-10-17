@@ -20,22 +20,5 @@
 
 # Serve the Services hub before the services/ directory.
 /services /services.html 200
-/about/ /about 301!
-/services/ /services 301!
-/services/brand-identity-design/ /services/brand-identity-design 301!
-/services/roblox-ui-design/ /services/roblox-ui-design 301!
-/work/ /work 301!
-/contact/ /contact 301!
-/case-study-ascendant-link/ /case-study-ascendant-link 301!
-/case-study-fuse-a-brainrot/ /case-study-fuse-a-brainrot 301!
-/case-study-jacyjo-branding/ /case-study-jacyjo-branding 301!
-/case-study-social-media-kits/ /case-study-social-media-kits 301!
-/blog/ /blog 301!
-/blog-brief-to-final-delivery/ /blog-brief-to-final-delivery 301!
-/blog-freelance-design-lessons/ /blog-freelance-design-lessons 301!
-/blog-how-to-brief-a-game-ui-designer/ /blog-how-to-brief-a-game-ui-designer 301!
-/services/logo-design/ /services/logo-design 301!
-/services/social-media-design/ /services/social-media-design 301!
 
 /blog-how-to-hire-a-roblox-ui-designer.html /blog-how-to-hire-a-roblox-ui-designer 301!
-/blog-how-to-hire-a-roblox-ui-designer/ /blog-how-to-hire-a-roblox-ui-designer 301!
