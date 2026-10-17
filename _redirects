@@ -1,15 +1,24 @@
+/index.html / 301!
 /about.html /about 301!
 /services.html /services 301!
 /work.html /work 301!
 /blog.html /blog 301!
 /contact.html /contact 301!
-/testimonials.html /testimonials 301!
-
 /case-study-fuse-a-brainrot.html /case-study-fuse-a-brainrot 301!
 /case-study-jacyjo-branding.html /case-study-jacyjo-branding 301!
 /case-study-social-media-kits.html /case-study-social-media-kits 301!
 /case-study-ascendant-link.html /case-study-ascendant-link 301!
-
 /blog-brief-to-final-delivery.html /blog-brief-to-final-delivery 301!
 /blog-freelance-design-lessons.html /blog-freelance-design-lessons 301!
 /blog-how-to-brief-a-game-ui-designer.html /blog-how-to-brief-a-game-ui-designer 301!
+/testimonials.html / 301!
+/testimonials / 301!
+/services/logo-design.html /services/logo-design 301!
+/services/social-media-design.html /services/social-media-design 301!
+/services/brand-identity-design.html /services/brand-identity-design 301!
+/services/roblox-ui-design.html /services/roblox-ui-design 301!
+
+# Serve the Services hub before the services/ directory.
+/services /services.html 200
+
+/blog-how-to-hire-a-roblox-ui-designer.html /blog-how-to-hire-a-roblox-ui-designer 301!

@@ -64,6 +64,13 @@
   .nav-links a::after{content:'';position:absolute;left:0;bottom:0;width:0;height:1.5px;background:var(--spark);transition:width .25s ease;}
   .nav-links a:hover{color:var(--grape);}
   .nav-links a:hover::after{width:100%;}
+  .nav-dropdown{position:relative;}
+  .nav-dropdown-toggle{display:none;}
+  .nav-dropdown-menu{position:absolute;top:100%;left:-1rem;z-index:101;display:none;min-width:210px;padding:0.45rem;background:rgba(23,21,31,0.98);border:1px solid var(--mist);border-radius:12px;box-shadow:0 14px 36px rgba(0,0,0,0.28);backdrop-filter:blur(12px);list-style:none;}
+  .nav-dropdown:hover .nav-dropdown-menu,.nav-dropdown:focus-within .nav-dropdown-menu{display:block;}
+  .nav-dropdown-menu a{display:block;padding:0.65rem 0.8rem;border-radius:8px;white-space:nowrap;}
+  .nav-dropdown-menu a::after{display:none;}
+  .nav-dropdown-menu a:hover{background:var(--mist);}
   .nav-cta{background:var(--violet);color:#fff!important;padding:0.6rem 1.4rem;border-radius:100px;font-weight:500!important;font-size:0.82rem!important;}
   .nav-cta::after{display:none;}
   .nav-cta:hover{background:var(--spark)!important;}
@@ -261,6 +268,14 @@
     .nav-links{position:fixed;top:60px;left:0;right:0;background:var(--canvas);flex-direction:column;padding:1.5rem 6vw;border-bottom:1.5px solid var(--mist);display:none;gap:1.2rem;align-items:flex-start;}
     .nav-links.open{display:flex;}
     .nav-toggle{display:block;}
+    .nav-dropdown{width:100%;}
+    .nav-dropdown > a{display:inline-block;}
+    .nav-dropdown-toggle{display:inline-flex;align-items:center;justify-content:center;margin-left:0.45rem;width:2rem;height:2rem;border:1px solid var(--mist);border-radius:8px;background:transparent;color:var(--grape);font-size:0.85rem;cursor:pointer;}
+    .nav-dropdown-toggle:hover{background:var(--mist);}
+    .nav-dropdown-menu{position:static;min-width:0;margin-top:0.5rem;padding:0.35rem;border-radius:10px;box-shadow:none;backdrop-filter:none;}
+    .nav-dropdown:hover .nav-dropdown-menu,.nav-dropdown:focus-within .nav-dropdown-menu{display:none;}
+    .nav-dropdown.open .nav-dropdown-menu{display:block;}
+    .nav-dropdown-menu a{padding:0.55rem 0.7rem;}
     .cards{grid-template-columns:1fr;}
     .cta-band{text-align:center;justify-content:center;}
     .hero-orb{display:none;}

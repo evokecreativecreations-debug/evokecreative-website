@@ -1,0 +1,34 @@
+# Evoke Creative Creations
+
+> Independent design studio led by Rameez Ahmed. AI supports research; Rameez leads visual design and final review. Services include brand identity, logo design, social media graphics and Roblox UI.
+
+## Studio and enquiries
+
+- [Home](https://evokecreativecreations.com/): Studio introduction and selected work.
+- [Studio](https://evokecreativecreations.com/about): Background and design practice.
+- [Services](https://evokecreativecreations.com/services): Overview of available design services.
+- [Contact](https://evokecreativecreations.com/contact): Discuss project requirements and request a quote.
+
+## Dedicated services
+
+- [Logo Design](https://evokecreativecreations.com/services/logo-design): Focused logo packages from $250 USD; confirm the deliverables and final quote before booking.
+- [Social Media Design](https://evokecreativecreations.com/services/social-media-design): Three static posts for one platform from $150 USD; covers and larger campaigns are scoped separately.
+
+- [Roblox UI Design](https://evokecreativecreations.com/services/roblox-ui-design): Interface design for Roblox games.
+- [Brand Identity Design](https://evokecreativecreations.com/services/brand-identity-design): Visual identity design for businesses.
+
+## Portfolio
+
+- [Case Studies](https://evokecreativecreations.com/work): Selected design projects.
+- [Fuse a Brainrot](https://evokecreativecreations.com/case-study-fuse-a-brainrot): Roblox game UI project.
+- [JacyJo Branding](https://evokecreativecreations.com/case-study-jacyjo-branding): Brand identity project.
+- [Ascendant Link](https://evokecreativecreations.com/case-study-ascendant-link): Selected portfolio project.
+- [Social Media Kits](https://evokecreativecreations.com/case-study-social-media-kits): Social media design project.
+
+## Design articles
+
+- [Blog](https://evokecreativecreations.com/blog): Design process and freelance articles.
+- [Brief to Final Delivery](https://evokecreativecreations.com/blog-brief-to-final-delivery): Design project workflow.
+- [Freelance Design Lessons](https://evokecreativecreations.com/blog-freelance-design-lessons): Reflections on freelance design.
+- [How to Brief a Game UI Designer](https://evokecreativecreations.com/blog-how-to-brief-a-game-ui-designer): Preparing a game UI design brief.
+- [How to Hire a Roblox UI Designer](https://evokecreativecreations.com/blog-how-to-hire-a-roblox-ui-designer): Comparing portfolios, project scope and developer handoff.

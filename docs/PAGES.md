@@ -10,7 +10,6 @@ The repository currently contains these HTML pages:
 - work.html — Work/portfolio landing page; highlights selected projects and case studies.
 - contact.html — Contact page; provides ways to reach the studio.
 - blog.html — Blog index page; groups writing and insights posts.
-- testimonials.html — Testimonials page; presents client feedback and social proof.
 - case-study-ascendant-link.html — Case study page for Ascendant Link.
 - case-study-fuse-a-brainrot.html — Case study page for Fuse a Brainrot.
 - case-study-jacyjo-branding.html — Case study page for Jacyjo branding work.
@@ -23,6 +22,7 @@ The repository currently contains these HTML pages:
 
 The visible content suggests the site is structured as a marketing portfolio with:
 - A primary landing experience.
+- Testimonials and portfolio highlights on the home page.
 - Dedicated service and case-study content.
 - A blog section for thought leadership and process insights.
 - A direct contact path for inquiries.
