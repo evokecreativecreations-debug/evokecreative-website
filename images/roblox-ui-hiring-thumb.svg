@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Hiring a Roblox UI designer</title>
+  <desc id="desc">Evoke editorial graphic: a hiring checklist covering scope, source files and developer handoff.</desc>
+  <rect width="1200" height="630" fill="#e5dcff"/>
+  <path d="M820 0H1200V630H1010Z" fill="#d5c6ff"/>
+  <circle cx="1140" cy="64" r="160" fill="#c7b3ff"/>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="70" y="84" font-size="22" font-weight="700" letter-spacing="3" fill="#5934b3">THE DESIGN HIRING GUIDE</text>
+    <text x="66" y="205" font-size="72" font-weight="800" letter-spacing="-3" fill="#20172f">Hiring a</text>
+    <text x="66" y="289" font-size="72" font-weight="800" letter-spacing="-3" fill="#20172f">Roblox UI</text>
+    <text x="66" y="373" font-size="72" font-weight="800" letter-spacing="-3" fill="#5934b3">designer?</text>
+    <text x="70" y="438" font-size="25" fill="#4d4161">Know what to ask before you book.</text>
+    <text x="70" y="564" font-size="27" font-weight="700" fill="#20172f">evoke.</text>
+    <text x="178" y="564" font-size="20" fill="#4d4161">Rameez Ahmed</text>
+    <g transform="translate(730 158)">
+      <rect x="0" y="0" width="398" height="320" rx="24" fill="#251a3c"/>
+      <rect x="28" y="28" width="342" height="72" rx="12" fill="#3d2d58"/>
+      <rect x="28" y="124" width="342" height="72" rx="12" fill="#3d2d58"/>
+      <rect x="28" y="220" width="342" height="72" rx="12" fill="#3d2d58"/>
+      <g fill="#cbb4ff"><circle cx="65" cy="64" r="18"/><circle cx="65" cy="160" r="18"/><circle cx="65" cy="256" r="18"/></g>
+      <g fill="none" stroke="#251a3c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M57 64l6 6 11-13"/><path d="M57 160l6 6 11-13"/><path d="M57 256l6 6 11-13"/></g>
+      <g fill="#f5efff" font-size="26" font-weight="700"><text x="103" y="73">Agree the scope</text><text x="103" y="169">Check the files</text><text x="103" y="265">Plan the handoff</text></g>
+    </g>
+  </g>
+</svg>
