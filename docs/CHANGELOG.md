@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-10-22 — Technical SEO audit remediation (local)
+
+- Removed inline base64 images from all 18 pages; reused the existing logos and generated smaller cacheable WebP derivatives where beneficial. Preserved original artwork and current URLs.
+- Added intrinsic width/height to all 151 image references. Homepage portrait and article lead images load eagerly; lower images retain lazy loading.
+- Replaced an invalid Google Fonts request with self-hosted WOFF2 files for the existing families, font-display swap, a heading-font preload and bundled SIL OFL licenses.
+- Reduced homepage HTML from 484,623 to 29,807 bytes. This is an HTML size reduction, not a measured Core Web Vitals improvement.
+- Rewrote homepage/service descriptions around Rameez's work and experience. Retained research-only AI disclosure on Studio and llms.txt; replaced repeated service AI FAQs with direct-designer collaboration answers and synchronized FAQ schema.
+- Added contextual links to the Roblox hiring guide, Ascendant Link case study and freelance lessons; expanded Work, Blog and Contact with useful project/selection information.
+- Added individual 1200×630 social images for four articles and four case studies using existing artwork.
+- Added real sitemap lastmod dates; synchronized four edited articles' visible updates and Article dateModified while preserving datePublished.
+- Restored the exact known legacy WordPress logo via a 301 to its recovered image. No speculative portfolio wildcard or unrelated feed-to-home redirect was added.
+- Prepared Netlify security/cache headers and a public IndexNow verification file with an explicit submission script. IndexNow dry run validates 18 canonical URLs; no search submission has been sent from this revision.
+- Verified 18 pages, 138 local HTTP targets, 151 image references, 32 fragment links, 21 redirects, JSON-LD/visible FAQ agreement and a real missing-page 404. Browser checks passed all 18 pages at actual 1280px/390px widths and five representative pages at 320px; mobile menu/submenu and updated FAQ were exercised.
+
+Search Console checked 22 October: domain property already exists; sitemap Success with 18 discovered URLs, submitted/read 18 October. Pages report last updated 16 October shows 3 indexed URLs and 16 non-indexed records, including older host/URL variants. Links report currently reports zero external links; this does not prove zero links exist on the web.
+
+Changes are local and uncommitted. Live deployment, production header/redirect verification, IndexNow submission, fresh GSC URL inspection, external profile/client links and post-deployment mobile PageSpeed measurements remain separate follow-up work. The direct HTTP live crawl failed at DNS resolution in this execution environment; public homepage content and signed-in GSC were accessible through browser/search tools. No indexing or ranking guarantee.
+
 ## Baseline
 
 - Audited the existing static website structure and content.

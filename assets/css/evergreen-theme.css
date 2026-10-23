@@ -1,0 +1,206 @@
+/* EvokeFlow palette, applied to the Evoke studio website. */
+:root {
+  --brand: #347c63;
+  --forest: #102722;
+  --mint: #deeee5;
+  --lime: #c3d69c;
+  --canvas: #f4f7f4;
+  --ink: #142e27;
+  --ink-2: var(--mint);
+  --text: var(--ink);
+  --grape: var(--ink);
+  --mid: #5c7369;
+  --mist: #d9e4dc;
+  /* Compatibility with existing components and article styles. */
+  --violet: var(--brand);
+  --spark: var(--brand);
+  --paper: #fff;
+  --paper-gradient: #fff;
+  --white: #fff;
+}
+
+::selection { background: var(--lime); color: var(--ink); }
+
+/* Light surfaces keep the real portfolio artwork in its original colors. */
+.s-hero h1 .s-muted-line,
+.page-header h1 em,
+.cta-band h2 em { color: var(--brand); }
+.s-availability::before { background: var(--brand); }
+.s-client-name { color: var(--mid); }
+.s-text-link { border-color: var(--mid); }
+.s-round-arrow,
+.s-studio-stats { border-color: var(--mist); }
+.s-project-media,
+.portfolio-thumb,
+.blog-thumb,
+.showcase-card img,
+.service-proof-image { background: var(--paper); }
+.s-project:nth-child(2) .s-project-media { background: #090a20; }
+.compare-card,
+.compare-label { background: var(--mint); }
+.compare-label { color: var(--ink); }
+.brief-text,
+.blog-article > p,
+.blog-article > ul,
+.blog-article > ol { color: var(--ink); }
+.blog-article [style*="background"] {
+  background: var(--mint) !important;
+  border-color: var(--mist) !important;
+  color: var(--ink) !important;
+}
+.blog-article a,
+.related-reading a,
+.cat-desc a,
+.service-overview a:not(.btn-primary):not(.btn-light):not(.btn-outline):not(.btn-outline-dark) {
+  color: var(--brand);
+}
+.blog-article [style*="background"] a { color: var(--ink); }
+
+/* Evergreen actions use white text; lime actions use dark text. */
+.s-button,
+.btn-primary,
+.btn-light,
+.form-submit {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: var(--white);
+}
+.s-button:hover,
+.btn-primary:hover,
+.btn-light:hover,
+.form-submit:hover {
+  background: var(--forest);
+  border-color: var(--forest);
+  color: var(--white);
+}
+.s-button.secondary,
+.btn-outline,
+.btn-outline-dark {
+  background: transparent;
+  border-color: var(--mid);
+  color: var(--ink);
+}
+.s-button.secondary:hover,
+.btn-outline:hover,
+.btn-outline-dark:hover {
+  background: var(--mint);
+  border-color: var(--brand);
+  color: var(--ink);
+}
+.s-project:hover .s-round-arrow,
+.s-service-row:hover .s-round-arrow {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: var(--white);
+}
+
+/* Floating navigation and service panel. */
+.s-nav.s-container,
+.s-dropdown-menu,
+.s-nav-links { border-color: var(--mist); }
+.s-nav.s-container { box-shadow: 0 10px 28px #10272208; }
+.s-dropdown-menu { box-shadow: 0 20px 50px #1027221a; }
+.s-nav-links .s-nav-cta { background: var(--brand); color: var(--white); }
+.s-nav-links .s-nav-cta:hover { background: var(--forest); color: var(--white); }
+.s-dropdown-toggle:hover,
+.s-dropdown-toggle[aria-expanded="true"] {
+  background: var(--mint);
+  color: var(--ink);
+}
+.s-dropdown-menu a:hover { background: var(--mint); }
+.s-dropdown-menu .s-mega-group a:hover,
+.s-dropdown-menu .s-mega-bottom a:hover { background: transparent; }
+.s-mega-label,
+.s-mega-bottom { border-color: var(--mist); }
+.s-mega-aside { background: var(--mint); color: var(--ink); }
+.s-mega-aside > span:last-child { color: var(--ink); }
+
+/* Mint sections keep their small text dark enough to read. */
+.s-studio-section { background: var(--mint); }
+.s-studio-section .s-eyebrow,
+.s-studio-copy > p,
+.s-studio-stats span,
+.s-studio-portrait figcaption { color: var(--ink); }
+.s-studio-section .s-text-link { border-color: var(--brand); }
+.s-studio-stats { border-color: var(--brand); }
+.s-portrait { background: var(--mint); }
+.testi-card { background: var(--paper); }
+.testi-quote { color: var(--ink); }
+.testi-avatar { color: var(--ink); background: var(--mint); }
+
+/* Forms retain clear field boundaries and readable placeholder text. */
+.form-group input,
+.form-group textarea,
+.form-group select { background: var(--paper); border-color: var(--mid); }
+.form-group input::placeholder,
+.form-group textarea::placeholder { color: var(--mid); opacity: 1; }
+.form-status.success { color: var(--brand); }
+
+/* Deep Forest provides the closing contrast to the light portfolio. */
+.s-footer { background: var(--forest); color: var(--canvas); }
+.s-footer-cta p,
+.s-footer-links p,
+.s-footer-links h3,
+.s-footer-bottom { color: var(--mint); }
+.s-footer-links,
+.s-footer-bottom { border-color: var(--brand); }
+.s-footer-links a:hover,
+.s-footer-bottom a:hover { color: var(--lime); }
+.s-footer-cta .s-button {
+  background: var(--lime);
+  border-color: var(--lime);
+  color: var(--ink);
+}
+.s-footer-cta .s-button:hover {
+  background: var(--mint);
+  border-color: var(--mint);
+  color: var(--ink);
+}
+
+.s-footer-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.s-footer-socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--brand);
+  border-radius: 50%;
+  color: var(--mint);
+  text-decoration: none;
+  transition: background .18s, border-color .18s, color .18s, transform .18s;
+}
+.s-footer-bottom .s-footer-socials a:hover {
+  background: var(--lime);
+  border-color: var(--lime);
+  color: var(--ink);
+  transform: translateY(-2px);
+}
+.s-footer-socials svg { width: 17px; height: 17px; }
+.s-footer-socials .icon-text {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  .s-footer-bottom .s-footer-socials a:hover { transform: none; }
+}
+
+@media (max-width: 960px) {
+  .s-dropdown-menu { background: var(--mint); }
+  .s-dropdown-menu .s-mega-label,
+  .s-dropdown-menu .s-mega-group a,
+  .s-dropdown-menu .s-mega-group a > span,
+  .s-dropdown-menu .s-mega-note,
+  .s-dropdown-menu .s-mega-bottom a { color: var(--ink); }
+  .s-dropdown-menu .s-mega-label,
+  .s-dropdown-menu .s-mega-bottom { border-color: var(--brand); }
+  .s-nav-links { box-shadow: 0 18px 38px #10272214; }
+}

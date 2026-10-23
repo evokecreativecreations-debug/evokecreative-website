@@ -15,6 +15,21 @@
 - Working tree: Clean.
 - Live deployment: Pending.
 
+## Technical SEO audit fixes — 2026-10-22
+
+- [x] Preserve source baseline and public page URLs.
+- [x] Remove inline portfolio/portrait/logo images; optimize referenced assets and image dimensions.
+- [x] Self-host existing fonts with licenses and verify rendering.
+- [x] Improve metadata, contextual links, hub content and social previews.
+- [x] Synchronize sitemap lastmod and edited article dates.
+- [x] Restore the evidenced old logo route; keep unknown legacy routes for evidence-based review.
+- [x] Prepare Netlify headers and IndexNow verification/submission tooling.
+- [x] Pass local SEO/HTTP checks and desktop/mobile rendering checks.
+- [ ] Deploy this revision after owner approval; verify production headers and legacy routing.
+- [ ] Submit IndexNow only after its public key file is live; resubmit the changed sitemap and inspect priority URLs in GSC.
+- [ ] Measure live mobile PageSpeed on Home and a case study; distinguish lab results from field Core Web Vitals.
+- [ ] Verify external profile links and pursue relevant client credits/portfolio placements with owner authorization.
+
 ## Notes
 
 Future implementation work should remain limited to the documentation scope unless the Project Coordinator explicitly approves a broader change.

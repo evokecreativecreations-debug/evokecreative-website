@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Evoke Creative Creations Blog</title>
+    <link>https://evokecreativecreations.com/blog</link>
+    <description>Practical articles on branding, game UI and working with a designer by Rameez Ahmed.</description>
+    <language>en</language>
+    <lastBuildDate>Thu, 22 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://evokecreativecreations.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Hire a Roblox UI Designer: A Practical Checklist</title>
+      <link>https://evokecreativecreations.com/blog-how-to-hire-a-roblox-ui-designer</link>
+      <guid isPermaLink="true">https://evokecreativecreations.com/blog-how-to-hire-a-roblox-ui-designer</guid>
+      <description>Compare Roblox UI designers, HUD, inventory and shop scope, source files, mobile review and Studio handoff before you book your project.</description>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Rameez Ahmed</dc:creator>
+    </item>
+    <item>
+      <title>How to Brief a Game UI Designer.</title>
+      <link>https://evokecreativecreations.com/blog-how-to-brief-a-game-ui-designer</link>
+      <guid isPermaLink="true">https://evokecreativecreations.com/blog-how-to-brief-a-game-ui-designer</guid>
+      <description>A practical guide to briefing a game UI designer — what to include, common mistakes to avoid, and how a clear brief leads to better Roblox HUDs and game interfaces.</description>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Rameez Ahmed</dc:creator>
+    </item>
+    <item>
+      <title>5 Lessons From Freelancing Since 2017.</title>
+      <link>https://evokecreativecreations.com/blog-freelance-design-lessons</link>
+      <guid isPermaLink="true">https://evokecreativecreations.com/blog-freelance-design-lessons</guid>
+      <description>Practical lessons on freelance design business — pricing, client relationships, and building a design career, from a designer freelancing since 2017.</description>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Rameez Ahmed</dc:creator>
+    </item>
+    <item>
+      <title>From Brief to Final Delivery.</title>
+      <link>https://evokecreativecreations.com/blog-brief-to-final-delivery</link>
+      <guid isPermaLink="true">https://evokecreativecreations.com/blog-brief-to-final-delivery</guid>
+      <description>A behind-the-scenes look at how a game UI project actually goes from brief to final delivery — research, concepts, revisions, and handoff.</description>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Rameez Ahmed</dc:creator>
+    </item>
+  </channel>
+</rss>

@@ -22,3 +22,13 @@
 /services /services.html 200
 
 /blog-how-to-hire-a-roblox-ui-designer.html /blog-how-to-hire-a-roblox-ui-designer 301!
+
+# Exact legacy logo recovered from the previous studio website.
+/wp-content/uploads/2019/06/ECC.png /images/legacy-evoke-logo.png 301!
+
+# Canonical utility page URLs.
+/privacy.html /privacy 301!
+/terms.html /terms 301!
+/sitemap.html /sitemap 301!
+
+/pricing.html /pricing 301!

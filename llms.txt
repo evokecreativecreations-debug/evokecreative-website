@@ -7,6 +7,7 @@
 - [Home](https://evokecreativecreations.com/): Studio introduction and selected work.
 - [Studio](https://evokecreativecreations.com/about): Background and design practice.
 - [Services](https://evokecreativecreations.com/services): Overview of available design services.
+- [Pricing & Packages](https://evokecreativecreations.com/pricing): Compare starting prices, included deliverables, revision scope and custom quotation.
 - [Contact](https://evokecreativecreations.com/contact): Discuss project requirements and request a quote.
 
 ## Dedicated services
@@ -32,3 +33,10 @@
 - [Freelance Design Lessons](https://evokecreativecreations.com/blog-freelance-design-lessons): Reflections on freelance design.
 - [How to Brief a Game UI Designer](https://evokecreativecreations.com/blog-how-to-brief-a-game-ui-designer): Preparing a game UI design brief.
 - [How to Hire a Roblox UI Designer](https://evokecreativecreations.com/blog-how-to-hire-a-roblox-ui-designer): Comparing portfolios, project scope and developer handoff.
+
+## Policies and resources
+
+- [Privacy Policy](https://evokecreativecreations.com/privacy): Enquiry data, optional analytics and privacy choices.
+- [Website Terms](https://evokecreativecreations.com/terms): Website use and project agreement information.
+- [Website Sitemap](https://evokecreativecreations.com/sitemap): Browse studio pages and resources.
+- [Blog RSS feed](https://evokecreativecreations.com/feed.xml): Article summaries and publication dates.
