@@ -71,6 +71,37 @@
     tag.src = 'https://www.googletagmanager.com/gtag/js?id=' + measurementId;
     document.head.appendChild(tag);
   }
+  const eventNames = new Set(['generate_lead', 'booking_link_click', 'fiverr_link_click', 'contact_email_click']);
+  const serviceNames = new Set(['brand-identity-design', 'logo-design', 'roblox-ui-design', 'social-media-design', 'game-ui-design', 'web-design', 'other']);
+  function track(name, details = {}) {
+    // Recheck expiry/storage at the moment of the interaction. Never queue events without consent.
+    const current = readChoice();
+    if (!production || current?.analytics !== true || !eventNames.has(name)) return false;
+    choice = current;
+    loadAnalytics();
+    if (!analyticsLoaded || window[disableKey] || typeof window.gtag !== 'function') return false;
+    const params = { page_path: location.pathname };
+    if (serviceNames.has(details.service)) params.service_type = details.service;
+    if (name === 'generate_lead') params.lead_method = 'contact_form';
+    // Do not pass names, emails, messages, arbitrary URLs or query strings to Analytics.
+    window.gtag('event', name, params);
+    return true;
+  }
+  function trackLink(event) {
+    if (event.defaultPrevented) return;
+    const anchor = event.target.closest?.('a[href]');
+    if (!anchor) return;
+    let url;
+    try { url = new URL(anchor.href, location.href); } catch { return; }
+    const host = url.hostname.toLowerCase().replace(/^www\./, '');
+    if (url.protocol === 'https:' && host === 'calendly.com' && url.pathname === '/evokecreativecreations/30min') {
+      track('booking_link_click');
+    } else if (url.protocol === 'https:' && host === 'fiverr.com' && url.pathname.replace(/\/$/, '') === '/gigbucks95') {
+      track('fiverr_link_click');
+    } else if (url.protocol === 'mailto:' && url.pathname.toLowerCase() === 'evokecreativecreations@gmail.com') {
+      track('contact_email_click');
+    }
+  }
   function enforceChoice() {
     if (choice?.analytics === true) { loadAnalytics(); return; }
     // Disable collection before removing cookies or the library.
@@ -156,6 +187,8 @@
     enforceChoice();
     syncUI();
   }
+  window.EvokeAnalytics = Object.freeze({ track });
+  document.addEventListener('click', trackLink);
   window.EvokePrivacy = Object.freeze({
     openSettings,
     getPreferences: () => choice ? { analytics: choice.analytics, updatedAt: choice.updatedAt } : null
