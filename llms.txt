@@ -21,6 +21,7 @@
 ## Portfolio
 
 - [Case Studies](https://evokecreativecreations.com/work): Selected design projects.
+- [CONE RUSH](https://evokecreativecreations.com/case-study-cone-rush): Roblox party-game UI case study covering loading, lobby HUD, a three-tab shop and eight icons.
 - [Fuse a Brainrot](https://evokecreativecreations.com/case-study-fuse-a-brainrot): Roblox game UI project.
 - [JacyJo Branding](https://evokecreativecreations.com/case-study-jacyjo-branding): Brand identity project.
 - [Ascendant Link](https://evokecreativecreations.com/case-study-ascendant-link): Selected portfolio project.

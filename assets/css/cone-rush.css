@@ -1,0 +1,41 @@
+/* Project-specific editorial layout. Shared studio navigation and theme are retained. */
+.cone-case .service-breadcrumbs{margin-bottom:24px}
+.cone-meta dd{margin:0}
+.cone-figure,.cone-section{width:min(calc(100% - var(--gutter)*2),1280px);margin-inline:auto}
+.cone-figure{margin-block:0 52px}
+.cone-image-link{display:block;position:relative;overflow:hidden;border-radius:12px;background:var(--paper);color:var(--ink)}
+.cone-image-link img{display:block;width:100%;height:auto}
+.cone-image-link:focus-visible{outline:3px solid var(--brand);outline-offset:5px}
+.cone-image-action{display:block;position:absolute;right:14px;bottom:14px;padding:9px 13px;border-radius:30px;background:#fff;color:#142e27;font-size:11px;font-weight:600;box-shadow:0 2px 10px #142e271a}
+.cone-figure figcaption{display:grid;grid-template-columns:1fr 2fr;gap:25px;padding-top:17px}
+.cone-figure figcaption>span,.cone-label,.cone-step{font-family:'Space Mono',monospace;font-size:10px;font-weight:400;letter-spacing:.055em;text-transform:uppercase;color:var(--mid);line-height:1.7}
+.cone-figure figcaption p{font-size:12px;line-height:1.85;color:var(--mid);max-width:690px}
+.cone-section{padding-block:50px;border-top:1px solid var(--mist)}
+.cone-label{margin-bottom:17px}
+.cone-section h2{font-family:'Plus Jakarta Sans',sans-serif;font-size:clamp(30px,3.6vw,48px);line-height:1.15;font-weight:500;letter-spacing:-.03em;margin-bottom:24px;max-width:820px}
+.cone-copy p,.cone-handoff-intro,.cone-handoff-list p{font-size:15px;line-height:1.9;color:var(--mid);margin-bottom:18px}
+.cone-copy p:last-child{margin-bottom:0}
+.cone-copy{max-width:820px}
+.cone-overview,.cone-section-heading,.cone-handoff{display:grid;grid-template-columns:1fr 1.25fr;gap:70px}
+.cone-section-heading{margin-bottom:35px;align-items:start}
+.cone-section .cone-figure{width:100%;margin-bottom:30px}
+.cone-principles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px;margin-top:36px}
+.cone-step{display:block;margin-bottom:17px}
+.cone-principles h3,.cone-handoff-list h3{font-size:18px;line-height:1.45;font-weight:500;letter-spacing:-.015em;margin-bottom:11px}
+.cone-principles p{font-size:13px;line-height:1.9;color:var(--mid)}
+.cone-gallery-pair{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:30px}
+.cone-gallery-pair figcaption{grid-template-columns:1fr;gap:6px}
+.cone-note{max-width:880px;font-size:12px;color:var(--mid);line-height:1.9;padding:22px 0 0;border-top:1px solid var(--mist)}
+.cone-handoff-list{padding-left:24px;margin:0}
+.cone-handoff-list li{padding-left:10px;margin-bottom:24px}
+.cone-handoff-list li::marker{color:var(--brand);font-family:'Space Mono',monospace;font-size:12px}
+.cone-outcome .cone-copy{margin-left:auto}
+.cone-featured{grid-column:1/-1;display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:center;border-bottom:1px solid var(--mist);padding-bottom:35px}
+.cone-featured .portfolio-thumb{aspect-ratio:16/9}
+.cone-featured .portfolio-info h2{font-size:clamp(26px,3vw,40px);margin-bottom:9px}
+.cone-featured .portfolio-info p{max-width:370px;font-size:14px;line-height:1.8}
+.cone-featured .cone-label{display:block;margin-bottom:15px}
+.cone-featured .cone-work-link{display:inline-block;color:var(--brand);font-size:12px;margin-top:25px}
+@media(max-width:960px){.cone-overview,.cone-section-heading,.cone-handoff{gap:35px}.cone-section h2{font-size:36px}.cone-principles{gap:25px}.cone-featured{gap:25px}}
+@media(max-width:800px){.cone-gallery-pair{grid-template-columns:1fr}.cone-gallery-pair figcaption{grid-template-columns:1fr 2fr;gap:20px}.cone-principles{grid-template-columns:1fr}.cone-principles>div{padding-top:20px;border-top:1px solid var(--mist)}.cone-principles p{max-width:680px}.cone-featured{grid-template-columns:1fr;gap:5px}.cone-featured .portfolio-info h2{font-size:29px}.cone-featured .portfolio-info p{max-width:600px}.cone-featured .cone-work-link{margin-top:15px}}
+@media(max-width:640px){.cone-overview,.cone-section-heading,.cone-handoff{grid-template-columns:1fr;gap:10px}.cone-section{padding-block:32px}.cone-section h2{font-size:31px}.cone-copy p,.cone-handoff-intro,.cone-handoff-list p{font-size:14px}.cone-figure{margin-bottom:32px}.cone-figure figcaption,.cone-gallery-pair figcaption{grid-template-columns:1fr;gap:7px;padding-top:13px}.cone-image-action{position:static;border-radius:0;padding:10px 12px;background:var(--paper);color:var(--ink);box-shadow:none;text-align:right;font-size:11px}.cone-figure figcaption p{font-size:12px}.cone-section-heading{margin-bottom:25px}.cone-handoff-list{padding-left:20px}.cone-note{padding-top:17px}.cone-outcome .cone-copy{margin-left:0}.cone-featured{padding-bottom:22px}.cone-featured .portfolio-info p{font-size:13px}}
