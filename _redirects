@@ -35,3 +35,6 @@
 
 # CONE RUSH case study canonical URL.
 /case-study-cone-rush.html /case-study-cone-rush 301!
+
+# Canonical shop page URL.
+/shop.html /shop 301!

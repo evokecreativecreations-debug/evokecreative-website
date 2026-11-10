@@ -1,0 +1,236 @@
+.shop-main {
+  padding-bottom: clamp(56px, 8vw, 112px);
+}
+
+.shop-hero {
+  display: grid;
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+  align-items: center;
+  gap: clamp(32px, 5vw, 78px);
+  padding-block: clamp(52px, 8vw, 106px) clamp(42px, 6vw, 80px);
+}
+
+.shop-intro h1,
+.shop-section-heading h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: var(--ink);
+  font-weight: 650;
+  letter-spacing: -.055em;
+  line-height: 1.02;
+}
+
+.shop-intro h1 {
+  font-size: clamp(54px, 6.3vw, 103px);
+  margin-block: 17px 23px;
+}
+
+.shop-intro h1 span {
+  color: var(--brand);
+}
+
+.shop-lead,
+.shop-section-heading > p:last-child {
+  max-width: 52ch;
+  font-size: clamp(15px, 1.28vw, 18px);
+  color: var(--mid);
+  line-height: 1.65;
+}
+
+.shop-tags,
+.shop-palettes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+}
+
+.shop-tags {
+  margin-block: 23px 28px;
+}
+
+.shop-tags li,
+.shop-palettes li {
+  padding: 5px 12px;
+  font-size: 12px;
+  border: 1px solid var(--mist);
+  border-radius: 999px;
+}
+
+.shop-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.shop-note {
+  margin-top: 10px;
+  font-size: 12px;
+  color: var(--mid);
+}
+
+#full-pack {
+  scroll-margin-top: 100px;
+}
+
+.shop-enquiry p {
+  margin-bottom: 18px;
+  max-width: 52ch;
+  color: var(--mid);
+  line-height: 1.65;
+}
+
+.shop-hero-visual,
+.shop-gallery figure {
+  margin: 0;
+  border: 1px solid var(--mist);
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--paper);
+}
+
+.shop-hero-visual img,
+.shop-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  background: #21143e;
+}
+
+.shop-hero-visual figcaption,
+.shop-gallery figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 7px 16px;
+  padding: 12px 16px;
+  font-size: 12px;
+  color: var(--mid);
+}
+
+.shop-kicker {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.shop-section {
+  border-top: 1px solid var(--mist);
+  padding-top: clamp(32px, 5vw, 64px);
+  margin-top: clamp(24px, 4vw, 58px);
+}
+
+.shop-section-heading h2 {
+  margin-block: 10px 13px;
+  font-size: clamp(32px, 4.3vw, 60px);
+}
+
+.shop-specs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 27px;
+}
+
+.shop-specs > div {
+  padding: clamp(17px, 2.5vw, 30px);
+  border: 1px solid var(--mist);
+  border-radius: 14px;
+  background: var(--paper);
+}
+
+.shop-specs dt {
+  font-size: clamp(26px, 3.5vw, 45px);
+  letter-spacing: -.06em;
+  font-weight: 650;
+}
+
+.shop-specs dt span {
+  display: block;
+  font-size: 16px;
+  letter-spacing: -.01em;
+}
+
+.shop-specs dd {
+  margin: 9px 0 0;
+  color: var(--mid);
+  line-height: 1.65;
+  font-size: 14px;
+}
+
+.shop-gallery-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: space-between;
+  gap: 8px 20px;
+  margin-bottom: 21px;
+}
+
+.shop-palettes {
+  margin-bottom: 12px;
+}
+
+.shop-palettes li {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.shop-swatch {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+
+.shop-swatch.grape { background: #a78bec; }
+.shop-swatch.mint { background: #9eeac4; }
+
+.shop-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(12px, 2vw, 24px);
+}
+
+.shop-details {
+  display: grid;
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+  gap: clamp(22px, 5vw, 76px);
+}
+
+.shop-faq details {
+  border-bottom: 1px solid var(--mist);
+  padding: 15px 0;
+}
+
+.shop-faq summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.shop-faq p {
+  margin-top: 10px;
+  color: var(--mid);
+  line-height: 1.65;
+  font-size: 14px;
+}
+
+@media (max-width: 850px) {
+  .shop-hero,
+  .shop-details {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 620px) {
+  .shop-specs,
+  .shop-gallery {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
