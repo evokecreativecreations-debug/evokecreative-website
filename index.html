@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script src="/assets/js/theme.js?v=20261022-dark"></script>
-<script defer src="/assets/js/analytics.js?v=20261024-events"></script>
 <meta charset="UTF-8" />
+<script>
+  (() => {
+    let theme;
+    try { theme = localStorage.getItem('evoke_theme'); } catch {}
+    if (theme !== 'dark' && theme !== 'light') {
+      theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.dataset.theme = theme;
+  })();
+</script>
+<script defer src="/assets/js/theme.js?v=20261022-dark"></script>
+<script defer src="/assets/js/analytics.js?v=20261024-events"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Evoke Creative Creations — Rameez Ahmed | Brand & Game UI Designer</title>
-<meta name="description" content="Brand identity, logo and Roblox UI design by Rameez Ahmed, designing for clients since 2017. Explore real projects, clear packages and a practical process."/>
+<title>Brand Identity &amp; Roblox UI Design | Evoke Creative</title>
+<meta name="description" content="Work with Rameez Ahmed on brand identity, logo design and Roblox UI. Explore project examples and starting prices from an independent Karachi studio."/>
 <meta name="robots" content="index, follow"/>
 <link rel="canonical" href="https://evokecreativecreations.com/"/>
 
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="Evoke Creative Creations | Brand &amp; Game UI Designer"/>
-<meta property="og:description" content="Brand identity, logo and Roblox UI design by Rameez Ahmed, designing for clients since 2017. Explore real projects, clear packages and a practical process."/>
+<meta property="og:title" content="Brand Identity &amp; Roblox UI Design | Evoke Creative"/>
+<meta property="og:description" content="Work with Rameez Ahmed on brand identity, logo design and Roblox UI. Explore project examples and starting prices from an independent Karachi studio."/>
 <meta property="og:url" content="https://evokecreativecreations.com/"/>
 <meta property="og:image" content="https://evokecreativecreations.com/og-image.jpg"/>
 <meta property="og:locale" content="en_US"/>
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Evoke Creative Creations | Brand &amp; Game UI Designer"/>
-<meta name="twitter:description" content="Brand identity, logo and Roblox UI design by Rameez Ahmed, designing for clients since 2017. Explore real projects, clear packages and a practical process."/>
+<meta name="twitter:title" content="Brand Identity &amp; Roblox UI Design | Evoke Creative"/>
+<meta name="twitter:description" content="Work with Rameez Ahmed on brand identity, logo design and Roblox UI. Explore project examples and starting prices from an independent Karachi studio."/>
 <meta name="twitter:image" content="https://evokecreativecreations.com/og-image.jpg"/>
 
 <link rel="preload" href="/assets/fonts/bricolagegrotesque-75a8b2e209.woff2" as="font" type="font/woff2" crossorigin/>
@@ -116,7 +126,7 @@
 <meta property="og:site_name" content="Evoke Creative Creations"/>
 <link rel="stylesheet" href="/assets/css/minimal-studio.css?v=20261022-navigation"/>
 <link rel="stylesheet" href="/assets/css/evergreen-theme.css?v=20261022-social"/>
-<link rel="stylesheet" href="/assets/css/site-utilities.css?v=20261023-pricing"/>
+<link rel="stylesheet" href="/assets/css/site-utilities.css?v=20261111-cookie"/>
 <link rel="alternate" type="application/rss+xml" title="Evoke Creative Creations Blog" href="/feed.xml"/>
 <script defer src="/assets/js/studio.js?v=20261023-nav-pricing"></script>
 </head>
@@ -145,7 +155,8 @@
   <section class="s-hero s-container" aria-labelledby="home-title">
     <div class="s-hero-top"><p class="s-eyebrow">Independent design studio · Est. 2017</p><span class="s-availability">Open for new projects</span></div>
     <div class="s-hero-grid">
-      <h1 id="home-title"><span>Brand identity.</span><span class="s-muted-line">Game UI design.</span></h1>
+      <h1 id="home-title"><span>Brand identity.</span>
+      <span class="s-muted-line">Game UI design.</span></h1>
       <div class="s-hero-intro">
         <p>Thoughtful design for small businesses, startups and game studios. Work directly with Rameez Ahmed, from the first conversation to the final files.</p>
         <div class="s-hero-actions"><a class="s-button" href="/work">Explore case studies <span aria-hidden="true">↗</span></a><a class="s-text-link" href="/contact">Start a project <span aria-hidden="true">↗</span></a></div>
@@ -157,7 +168,7 @@
   <section class="s-selected s-section s-container" aria-labelledby="selected-work-title">
     <div class="s-section-top"><h2 id="selected-work-title">Case Studies<span class="s-count">(04)</span></h2><a class="s-text-link" href="/work">All case studies <span aria-hidden="true">↗</span></a></div>
     <div class="s-project-grid">
-      <a class="s-project" href="/case-study-jacyjo-branding"><div class="s-project-media"><img src="/images/case-studies/jacyjo-branding-13.webp" alt="JacyJo Photography business cards featuring the refined wordmark and warm brand colors" loading="eager" fetchpriority="high" decoding="async" width="1300" height="975"/></div><div class="s-project-meta"><div><span class="s-project-label">01 / Brand identity</span><h3>JacyJo Photography</h3><p>An editorial identity for a photography business.</p></div><span class="s-round-arrow" aria-hidden="true">↗</span></div></a>
+      <a class="s-project" href="/case-study-jacyjo-branding"><div class="s-project-media"><img src="/images/case-studies/jacyjo-branding-13.webp" srcset="/images/case-studies/jacyjo-branding-13-480.webp 480w, /images/case-studies/jacyjo-branding-13-800.webp 800w, /images/case-studies/jacyjo-branding-13.webp 1300w" sizes="(max-width: 640px) calc(100vw - clamp(44px, 10vw, 160px)), (min-width: 1440px) 626px, calc((100vw - clamp(44px, 10vw, 160px) - 28px) / 2)" alt="JacyJo Photography business cards featuring the refined wordmark and warm brand colors" loading="eager" fetchpriority="high" decoding="async" width="1300" height="975"/></div><div class="s-project-meta"><div><span class="s-project-label">01 / Brand identity</span><h3>JacyJo Photography</h3><p>An editorial identity for a photography business.</p></div><span class="s-round-arrow" aria-hidden="true">↗</span></div></a>
       <a class="s-project" href="/case-study-fuse-a-brainrot"><div class="s-project-media"><img src="/images/case-studies/fuse-a-brainrot-12.webp" alt="Fuse a Brainrot Roblox shop interface with item cards and purchase options" loading="lazy" decoding="async" width="1300" height="731"/></div><div class="s-project-meta"><div><span class="s-project-label">02 / Roblox UI</span><h3>Fuse a Brainrot</h3><p>One connected system for HUDs, shops and inventory.</p></div><span class="s-round-arrow" aria-hidden="true">↗</span></div></a>
       <a class="s-project" href="/case-study-social-media-kits"><div class="s-project-media"><img src="/images/thumb-social-media-kits.webp" alt="Social media cover and campaign design from Evoke Creative Creations" loading="lazy" decoding="async" width="800" height="800"/></div><div class="s-project-meta"><div><span class="s-project-label">03 / Campaign design</span><h3>Social Media Kits</h3><p>A consistent visual voice, across every post.</p></div><span class="s-round-arrow" aria-hidden="true">↗</span></div></a>
       <a class="s-project" href="/case-study-ascendant-link"><div class="s-project-media"><img src="/images/case-studies/ascendant-link-08.webp" alt="Ascendant Link RPG character creation interface and customization controls" loading="lazy" decoding="async" width="1300" height="731"/></div><div class="s-project-meta"><div><span class="s-project-label">04 / Game UI / RPG</span><h3>Ascendant Link</h3><p>Fifteen screens. One coherent game world.</p></div><span class="s-round-arrow" aria-hidden="true">↗</span></div></a>

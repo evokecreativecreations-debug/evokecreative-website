@@ -1,6 +1,6 @@
 # Evoke Creative Creations
 
-> Independent design studio led by Rameez Ahmed. AI supports research; Rameez leads visual design and final review. Services include brand identity, logo design, social media graphics and Roblox UI.
+> Independent design studio led by Rameez Ahmed in Karachi, Pakistan, serving clients worldwide online. Services include brand identity, logo design, social media graphics and Roblox UI. Rameez leads visual design and final review, with AI support for research. Clients can enquire directly or hire through [Fiverr](https://www.fiverr.com/gigbucks95).
 
 ## Studio and enquiries
 
@@ -15,8 +15,8 @@
 - [Logo Design](https://evokecreativecreations.com/services/logo-design): Focused logo packages from $250 USD; confirm the deliverables and final quote before booking.
 - [Social Media Design](https://evokecreativecreations.com/services/social-media-design): Three static posts for one platform from $150 USD; covers and larger campaigns are scoped separately.
 
-- [Roblox UI Design](https://evokecreativecreations.com/services/roblox-ui-design): Interface design for Roblox games.
-- [Brand Identity Design](https://evokecreativecreations.com/services/brand-identity-design): Visual identity design for businesses.
+- [Roblox UI Design](https://evokecreativecreations.com/services/roblox-ui-design): From $350 USD for one HUD or interface screen with agreed button states, two revision rounds and PSD/PNG files. Roblox Studio implementation and Lua scripting are scoped separately.
+- [Brand Identity Design](https://evokecreativecreations.com/services/brand-identity-design): From $750 USD for a logo system, color palette, typography recommendations and a concise PDF brand guide.
 
 ## Portfolio
 
@@ -29,6 +29,7 @@
 
 ## Design articles
 
+- [Logo vs Brand Identity for Startups](https://evokecreativecreations.com/blog-startup-logo-vs-brand-identity): Compare the launch assets, handoff and starting prices for a logo and a visual identity.
 - [Blog](https://evokecreativecreations.com/blog): Design process and freelance articles.
 - [Brief to Final Delivery](https://evokecreativecreations.com/blog-brief-to-final-delivery): Design project workflow.
 - [Freelance Design Lessons](https://evokecreativecreations.com/blog-freelance-design-lessons): Reflections on freelance design.
@@ -37,6 +38,7 @@
 
 ## Policies and resources
 
+- [Free Roblox Simulator UI Kit](https://evokecreativecreations.com/shop): Editable Roblox Studio shop and currency HUD demo with SVG and PNG artwork.
 - [Privacy Policy](https://evokecreativecreations.com/privacy): Enquiry data, optional analytics and privacy choices.
 - [Website Terms](https://evokecreativecreations.com/terms): Website use and project agreement information.
 - [Website Sitemap](https://evokecreativecreations.com/sitemap): Browse studio pages and resources.

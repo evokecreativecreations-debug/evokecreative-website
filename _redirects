@@ -38,3 +38,8 @@
 
 # Canonical shop page URL.
 /shop.html /shop 301!
+
+# Legacy blog feed.
+/feed /feed.xml 301!
+
+/blog-startup-logo-vs-brand-identity.html /blog-startup-logo-vs-brand-identity 301!

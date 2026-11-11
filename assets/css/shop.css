@@ -20,7 +20,7 @@
 }
 
 .shop-intro h1 {
-  font-size: clamp(54px, 6.3vw, 103px);
+  font-size: clamp(35px, 4.6vw, 68px);
   margin-block: 17px 23px;
 }
 
