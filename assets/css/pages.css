@@ -88,10 +88,10 @@
 .faq-item{border-bottom:1px solid var(--mist, rgba(255,255,255,0.12));}
 .faq-question{width:100%;display:flex;justify-content:space-between;align-items:center;gap:16px;background:none;border:none;color:var(--text, #E4DFF2);font-family:inherit;font-size:1.05rem;text-align:left;padding:22px 4px;cursor:pointer;}
 .faq-icon{flex-shrink:0;font-size:1.4rem;line-height:1;color:var(--violet, #6C3FE8);transition:transform 0.25s ease;}
-.faq-item.active .faq-icon{transform:rotate(45deg);}
+.faq-item[open] .faq-icon{transform:rotate(45deg);}
 .faq-answer{max-height:0;overflow:hidden;transition:max-height 0.3s ease, padding 0.3s ease;}
 .faq-answer p{color:var(--mid, #A79FC7);line-height:1.6;padding:0 4px 22px 4px;margin:0;}
-.faq-item.active .faq-answer{max-height:400px;}
+.faq-item[open] .faq-answer{max-height:400px;}
 
 .blog-article{max-width:900px;margin:0 auto;padding:20px 24px 100px;color:var(--text);line-height:1.7;}
 .blog-article img{max-width:100%;height:auto;}
@@ -211,7 +211,7 @@
 .service-proof-image{display:block;background:var(--paper);border:1px solid var(--mist);border-radius:16px;overflow:hidden;margin:1.4rem 0;max-width:850px;}
 .service-proof-image img{width:100%;height:auto;max-height:520px;object-fit:contain;}
 .service-related{display:flex;gap:.75rem 1.5rem;flex-wrap:wrap;list-style:none;}
-.faq-item.active .faq-answer{max-height:none;}
+.faq-item[open] .faq-answer{max-height:none;}
 .skip-link{position:fixed;top:.5rem;left:1rem;z-index:10000;padding:.8rem 1.2rem;background:var(--grape);color:var(--ink);border-radius:8px;transform:translateY(-180%);}
 .skip-link:focus{transform:translateY(0);}
 :focus-visible{outline:2px solid var(--spark);outline-offset:4px;}
@@ -314,7 +314,7 @@ main [id]{scroll-margin-top:100px;}
 .contact-card h2 {font-family:'Bricolage Grotesque',sans-serif;font-size:1.3rem;color:var(--grape);margin-bottom:1.3rem;}
 .form-status[role="status"] {display:block;}
 .form-status[role="status"]:empty {padding:0;border:0;}
-.faq-item.active .faq-answer {max-height:none;}
+.faq-item[open] .faq-answer {max-height:none;}
 @media(prefers-reduced-motion:reduce) {
   .portfolio-item {cursor:pointer!important;}
   .testi-marquee {scroll-behavior:auto;}
